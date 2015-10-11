@@ -1,0 +1,25 @@
+{
+  "name": "firekyll-generator-gulp-webapp",
+  "version": "0.8.0",
+  "description": "Scaffolding for a front-end web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilsson/firekyll-generator-gulp-webapp.git"
+  },
+  "keywords": [
+    "web",
+    "front-end",
+    "gulp",
+    "app"
+  ],
+  "author": "wilsson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilsson/firekyll-generator-gulp-webapp/issues"
+  },
+  "homepage": "https://github.com/wilsson/firekyll-generator-gulp-webapp#readme"
+}
