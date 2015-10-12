@@ -1,25 +1,8 @@
 {
-  "private": true,
   "devDependencies": {
      "browser-sync": "^2.9.3",
     "express": "^4.13.3",
     "gulp": "^3.9.0",
     "gulp-sass": "^2.0.4"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "eslintConfig": {
-    "env": {
-      "node": true,
-      "browser": true,
-      "mocha": true
-    },
-    "rules": {
-      "quotes": [
-        2,
-        "single"
-      ]
-    }
   }
 }

@@ -34,4 +34,7 @@ generator.prototype.files = function(_tasks,input,output){
   }
 }
 
-module.exports = generator;
+//module.exports = generator;
+var app = new generator();
+
+app.directory();

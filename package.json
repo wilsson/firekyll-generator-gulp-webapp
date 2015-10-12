@@ -2,7 +2,7 @@
   "name": "firekyll-generator-gulp-webapp",
   "version": "0.9.0",
   "description": "Scaffolding for a front-end web application",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
