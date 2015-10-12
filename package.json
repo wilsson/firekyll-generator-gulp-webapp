@@ -1,6 +1,6 @@
 {
   "name": "firekyll-generator-gulp-webapp",
-  "version": "0.9.0",
+  "version": "0.9.2",
   "description": "Scaffolding for a front-end web application",
   "main": "app/index.js",
   "scripts": {
