@@ -1,6 +1,6 @@
 {
   "name": "firekyll-generator-gulp-webapp",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Scaffolding for a front-end web application",
   "main": "index.js",
   "scripts": {
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/wilsson/firekyll-generator-gulp-webapp/issues"
   },
-  "homepage": "https://github.com/wilsson/firekyll-generator-gulp-webapp#readme"
+  "homepage": "https://github.com/wilsson/firekyll-generator-gulp-webapp#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
 }
