@@ -1,5 +1,3 @@
-
-
 function generator(){
   this.plugins = require('./plugins');
 }
@@ -36,5 +34,4 @@ generator.prototype.files = function(_tasks,input,output){
   }
 }
 
-var init = new generator();
-init.directory();
+module.exports = generator;
