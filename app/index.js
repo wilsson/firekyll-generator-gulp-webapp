@@ -16,8 +16,16 @@ Generator.prototype.directory = function(path){
     else{
       ctx.tasksGulp(path);
       ctx.gulpfile(path);
+      ctx.gulpConfig(path);
     }
   });
+}
+
+Generator.prototype.gulpConfig = function(path){
+  var _tasks = this.plugins.fs.readdirSync(this.plugins.path.join(__dirname,'/templates/gulpConfig'));
+  var input = this.plugins.path.join(__dirname,'/templates/gulpConfig');
+  var output = this.plugins.path.join(path,'frontend','gulpConfig');
+  this.files(_tasks,input,output);
 }
 
 Generator.prototype.tasksGulp = function(path){
