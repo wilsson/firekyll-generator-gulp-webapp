@@ -9,7 +9,7 @@
  */
 
 function Task(gulp, path, plugins, config){
-
+  var _path = require('path');
   var express = require('express');
   var app = express();
   app.set('views', path.base);
@@ -17,7 +17,7 @@ function Task(gulp, path, plugins, config){
 
   gulp.task('express',function(){
     app.get('/',function(req,res){
-      res.sendFile(_path.resolve(path.base + '/_site/index.html'));
+      res.sendFile(_path.resolve(_path.join(path,'/_site/index.html')));
     });
 
     app.listen(config.port,function(){
