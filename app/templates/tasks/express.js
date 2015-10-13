@@ -17,7 +17,7 @@ function Task(gulp, path, plugins, config){
 
   gulp.task('express',function(){
     app.get('/',function(req,res){
-      res.sendFile(_path.resolve(_path.join(path,'/_site/index.html')));
+      res.sendFile(_path.resolve(_path.join(path.base,'/_site/index.html')));
     });
 
     app.listen(config.port,function(){
