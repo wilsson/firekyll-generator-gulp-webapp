@@ -9,15 +9,16 @@
  */
 
 function Task(gulp, path, plugins, config){
-  var _path = require('path');
-  var express = require('express');
-  var app = express();
-  app.set('views', path.base);
-  app.use(express.static(path.base + '/_site'));
-
   gulp.task('express',function(){
+    var app   = plugins.express();
+    var index = plugins.path.join(path.base,'_site','index.html');
+    var ruta  = plugins.path.resolve(index);
+
+    app.set('views', path.base);
+    app.use(plugins.express.static(path.base+'/_site'));
+    
     app.get('/',function(req,res){
-      res.sendFile(_path.resolve(_path.join(path.base,'/_site/index.html')));
+      res.sendFile(ruta);
     });
 
     app.listen(config.port,function(){

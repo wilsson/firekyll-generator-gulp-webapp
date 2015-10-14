@@ -7,13 +7,12 @@
 var gulp    = require('gulp'),
     path    = require('./gulpConfig/path'),
     plugins = require('./gulpConfig/plugins'),
-    config  = require('./gulpConfig/config.local'), 
-    fs      = require('fs');
+    config  = require('./gulpConfig/config.local');
 
-var tasks = fs.readdirSync('./gulpConfig/tasks');
+var tasks = plugins.fs.readdirSync('./gulpConfig/tasks');
 
 tasks.forEach(function(task){
-	task = require('./gulpConfig/tasks/' + task);
+	var task = require('./gulpConfig/tasks/' + task);
     task(gulp,path,plugins,config);
 });
 
