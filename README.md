@@ -1,5 +1,5 @@
 Scaffolding development assistance front-end of his blog, using firekyll
-####install
+####Install
 ```bash
 sudo npm install firekyll-generator-gulp-webapp -g
 ```
@@ -31,7 +31,7 @@ All modules necessary for our blog.
 Task needed to create a proxy server to listen to express.
 ####express.js
 Where is the server task configured to listen to port **4000**.
-To configure the port, edit**config.local.js**.
+To configure the port, edit **config.local.js**.
 ####jekyll.js
 Jekyll task to run gem.
 ####sass.js

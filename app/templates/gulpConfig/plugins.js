@@ -1,3 +1,9 @@
+/**
+ *
+ * @module Plugins
+ * 
+ */
+
 var Plugins = {
   sass        : require('gulp-sass'),
   browserSync : require('browser-sync').create(),
