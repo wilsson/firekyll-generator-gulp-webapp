@@ -14,7 +14,7 @@ function Task(gulp, path, plugins, config){
     var index = plugins.path.join(path.base,'_site','index.html');
     var ruta  = plugins.path.resolve(index);
 
-    app.set('views', path.base);
+    app.set('views', path.base+'/_site');
     app.use(plugins.express.static(path.base+'/_site'));
     
     app.get('/',function(req,res){

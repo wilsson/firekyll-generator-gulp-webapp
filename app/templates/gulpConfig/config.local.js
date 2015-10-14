@@ -1,5 +1,5 @@
 var CONFIG = {
-	port : 4000
+  port : 4000
 };
 
 module.exports = CONFIG;
