@@ -18,7 +18,6 @@ sudo npm install firekyll-generator-gulp-webapp -g
 	|-- gulpfile.js
 	|-- package.json
 ```
-
 ##gulpConfig
 Will be all the necessary settings for working with gulp
 ####path.js
