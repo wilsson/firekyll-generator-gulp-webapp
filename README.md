@@ -1,6 +1,8 @@
+[![npm version](https://badge.fury.io/js/firekyll-generator-gulp-webapp.svg)](https://badge.fury.io/js/firekyll-generator-gulp-webapp)
+
 Scaffolding development assistance front-end of his blog, using firekyll
 
-####Install
+#### Install
 
 ```bash
 sudo npm install firekyll-generator-gulp-webapp -g
@@ -22,41 +24,41 @@ sudo npm install firekyll-generator-gulp-webapp -g
 	|-- package.json
 ```
 
-##gulpConfig
+## gulpConfig
 
 Will be all the necessary settings for working with gulp
 
-####path.js
+#### path.js
 
 Routes necessary for tasks.
 
-####config.local.js
+#### config.local.js
 
 configuration file for tasks.
 
-####plugins.js
+#### plugins.js
 
 All modules necessary for our blog.
 
-##tasks
+## tasks
 
 ####browsersync.js
 
 Task needed to create a proxy server to listen to express.
 
-####express.js
+#### express.js
 
 Where is the server task configured to listen to port **4000**.
 To configure the port, edit **config.local.js**.
 
-####jekyll.js
+#### jekyll.js
 
 Jekyll task to run gem.
 
-####sass.js
+#### sass.js
 
 Task copilar style sheets in sass.
 
-####watch.js
+#### watch.js
 
 Task to hear all the changes implemented and refresh the browser.
