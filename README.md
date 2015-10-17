@@ -1,6 +1,6 @@
 [![npm version](https://badge.fury.io/js/firekyll-generator-gulp-webapp.svg)](https://badge.fury.io/js/firekyll-generator-gulp-webapp)
 
-Scaffolding development assistance front-end of his blog, using firekyll
+Scaffolding development assistance front-end of his blog, using [firekyll][1]
 
 #### Install
 
@@ -42,7 +42,7 @@ All modules necessary for our blog.
 
 ## tasks
 
-####browsersync.js
+#### browsersync.js
 
 Task needed to create a proxy server to listen to express.
 
@@ -62,3 +62,5 @@ Task copilar style sheets in sass.
 #### watch.js
 
 Task to hear all the changes implemented and refresh the browser.
+
+[1]:https://www.npmjs.com/package/firekyll
